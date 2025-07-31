@@ -31,9 +31,9 @@ return {
 			["@character.special"] = {},
 
 			-- Numbers
-			["@number"] = { fg = palette.salmon },
-			["@number.float"] = { fg = palette.fire_engine },
-			["@boolean"] = { fg = palette.salmon_light },
+			["@number"] = { fg = palette.bright3 },
+			["@number.float"] = { fg = palette.bright3 },
+			["@boolean"] = { fg = palette.bright1 },
 
 			-- Types
 			["@type"] = { fg = palette.maroonish },
@@ -92,6 +92,7 @@ return {
 			-- Misc
 			["@namespace"] = { fg = palette.salmon },
 			["@symbol"] = { fg = palette.salmon },
+			cBlock = { fg = palette.crimson },
 		}
 		return highlights
 	end,

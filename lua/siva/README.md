@@ -6,7 +6,7 @@ A red/dark colorscheme inspired by the colors of the ficitional nano-technology 
 | Plugin Name | Supported |
 | -------------- | --------------- |
 | Nvim Tree |   WIP|
-| Telescope |   WIP|
+| Telescope |   Complete|
 
     
 ---

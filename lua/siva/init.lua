@@ -9,6 +9,9 @@ local plugin_highlights = {}
 local plugin_modules = {
 	"nvim-tree",
 	"telescope",
+	"nvim-cmp",
+	"snacks",
+	"trouble",
 	-- add more plugin highlight files here
 }
 

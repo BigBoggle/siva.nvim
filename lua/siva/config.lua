@@ -6,6 +6,7 @@ config.options = {
 
 function config.extend(user_opts)
 	user_opts = user_opts or {}
+
 	for key, value in pairs(config.options) do
 		if user_opts[key] == nil then
 			user_opts[key] = value
