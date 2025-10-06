@@ -9,7 +9,9 @@ return {
 			Visual = { bg = palette.highlight_bg },
 			StatusLine = { fg = palette.white, bg = palette.maroonish },
 			StatusLineNC = { fg = palette.salmon_light, bg = palette.bg },
-			LineNr = { fg = palette.line_number or palette.salmon_light },
+			LineNr = { fg = palette.fire_engine, bold = true },
+			LineNrAbove = { fg = palette.line_number or palette.salmon_light },
+			LineNrBelow = { fg = palette.line_number or palette.salmon_light },
 			Cursor = { fg = palette.cursor_fg, bg = palette.cursor_bg },
 			Pmenu = { fg = palette.text, bg = palette.bg_dark },
 			PmenuSel = { fg = palette.bg, bg = palette.maroonish },
@@ -34,6 +36,8 @@ return {
 			Info = { fg = palette.info }, -- info messages
 			Warning = { fg = palette.warning, bold = true },
 			Type = { fg = palette.crimson }, -- types/classes
+
+			-- Line Numbers
 
 			-- Diagnostic Highlight
 			DiagnosticError = { fg = palette.error },

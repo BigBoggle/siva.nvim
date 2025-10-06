@@ -88,6 +88,8 @@ return {
 			-- Comments
 			["@comment"] = { fg = palette.comment, italic = true },
 			["@comment.documentation"] = { fg = palette.comment, italic = true },
+			["@comment.inactive"] = { link = "Normal" },
+			["@inactive.code"] = { link = "Normal" },
 
 			-- Misc
 			["@namespace"] = { fg = palette.salmon },
